@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\sass",
-    "\\sass\\abstracts"
+    "\\sass\\abstracts",
+    "\\sass\\base"
   ],
-  "SelectedNode": "\\sass\\abstracts\\_variables.scss",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
