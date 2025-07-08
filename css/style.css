@@ -62,6 +62,11 @@ button {
 textarea {
   resize: none; }
 
+video {
+  display: block;
+  margin: auto;
+}
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
@@ -72,7 +77,7 @@ textarea {
       font-size: 4.5rem; } }
 
 .heading-sec__mb-bg {
-  margin-bottom: 11rem; }
+  margin-bottom: 2rem; }
   @media only screen and (max-width: 56.25em) {
     .heading-sec__mb-bg {
       margin-bottom: 8rem; } }
@@ -165,7 +170,7 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 6rem 0; }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
       padding: 8rem 0; } }
@@ -492,6 +497,7 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
+
 
 .header {
   position: fixed;
