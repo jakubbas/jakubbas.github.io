@@ -504,7 +504,20 @@ video {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+.youtube-video-container {
+  position: relative;
+  padding-top: 56.25%; /* This creates the 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
 
+.youtube-video-container .projects__row-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .project-details__links {
   margin: 0 0; }
   .project-details__links-btn {
